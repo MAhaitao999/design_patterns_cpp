@@ -317,7 +317,7 @@ void Process()
 {
     //运行时装配
     MessagerImp* mImp = new PCMessagerImp();
-    Messager *m = new Messager(mImp);
+    Messager *m = new MessagerLite(mImp);
 }
 ```
 
